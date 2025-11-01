@@ -47,7 +47,7 @@ while ($true) {
         Write-Host "| Success Rate: $([math]::Round($successfulTests / $totalTests * 100, 1))%" -ForegroundColor Cyan
         
         if ($consecutiveFailures -eq 5) {
-            Write-Host "WARNING: 5 consecutive failures detected on your network!" -ForegroundColor Magenta
+            Write-Host "WARNING: 5 consecutive failures detected in your network!" -ForegroundColor Magenta
         }
     }
     
